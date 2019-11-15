@@ -14,11 +14,11 @@
     </nav>
     <div class='jumbo'></div>
     <div class="row">
-    <div class='col-3  '><div class='mr-5'></div></div>
-    <div class='col-3  '><div class='mr-5'></div></div>
-    <div class='col-3  '><div class='mr-5'></div></div>
-    <div class='col-2  '><div class='mr-5'></div></div>
-    <div class='col-2  '><div class='mr-5'></div></div>
+    <div class='col-3'><div class='card'></div></div>
+    <div class='col-3'><div class='mr-5'></div></div>
+    <div class='col-3'><div class='mr-5'></div></div>
+    <div class='col-2'><div class='mr-5'></div></div>
+    <div class='col-2'><div class='mr-5'></div></div>
 
     <?php
        for ($i=0; $i < 1000; $i++) { 

@@ -63,9 +63,6 @@
 }
 .mr-5{
    margin: 5px;
-   height: 100px;
-   background-color:rgb(22, 7, 226);
-   color: #fff;
 }
 .mid-bt{
     top:50%;
@@ -99,6 +96,12 @@
 }
 .slide-k ul{
     list-style: none;
+}
+.card{
+    margin: 5px;
+    height:100px ;
+    background-color:rgb(255, 255, 255);
+    color: rgb(54, 54, 54);
 }
 @media screen and (max-width:745px){
     .col-4{

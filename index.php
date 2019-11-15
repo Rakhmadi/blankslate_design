@@ -14,15 +14,11 @@
     </nav>
     <div class='jumbo'></div>
     <div class="row">
-    <div class='col-3  '><div class='mr-5'></div></div>
-    <div class='col-3  '><div class='mr-5'></div></div>
-    <div class='col-3  '><div class='mr-5'></div></div>
-    <div class='col-2  '><div class='mr-5'></div></div>
-    <div class='col-2  '><div class='mr-5'></div></div>
+ 
 
     <?php
        for ($i=0; $i < 1000; $i++) { 
-           echo"<div class='col-4  '><div class='mr-5'>loop</div></div>";
+           echo"<div class='col-3'><div class='mr-5'><div class='card shadow'>loop</div></div></div>";
        }
       ?>
     </div>
