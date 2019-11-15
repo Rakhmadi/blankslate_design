@@ -14,7 +14,6 @@
     </nav>
     <div class='jumbo'></div>
     <div class="row">
- 
 
     <?php
        for ($i=0; $i < 1000; $i++) { 
