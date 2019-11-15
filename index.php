@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-                         
+   
     <?php wp_head();?>
 </head>
 <body >
@@ -17,7 +17,7 @@
 
     <?php
        for ($i=0; $i < 1000; $i++) { 
-           echo"<div class='col-3'><div class='mr-5'><div class='card shadow'>loop</div></div></div>";
+           echo"<div class='col-3'><div class='mr-5'><div class='card shadow border-left'></div></div></div>";
        }
       ?>
     </div>

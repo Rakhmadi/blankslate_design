@@ -33,7 +33,7 @@
     display: block;
 }
 .shadow{
-    box-shadow: 0 4px 8px 0 rgba(184, 184, 184, 0.349);
+    box-shadow: 0 4px 8px 0 rgba(184, 184, 184, 0.438);
 }
 .jumbo{
     width: 100%;
@@ -88,8 +88,8 @@
 .slide-k ul li a {
     display:block;
     text-align: center;
-   padding: 10px;
-   text-decoration: none;
+    padding: 10px;
+    text-decoration: none;
  }
  .slide-k ul li a:hover{
      background-color: rgba(255, 255, 255, 0.253);
@@ -102,6 +102,9 @@
     height:100px ;
     background-color:rgb(255, 255, 255);
     color: rgb(54, 54, 54);
+}
+.border-left{
+    border-left: 3px solid rgb(33, 142, 216);
 }
 @media screen and (max-width:745px){
     .col-4{
