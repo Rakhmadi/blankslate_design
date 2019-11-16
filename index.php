@@ -16,10 +16,16 @@
     <div class="row">
 
     <?php
-       for ($i=0; $i < 100; $i++) { 
+       for ($i=0; $i < 3; $i++) { 
            echo"<div class='col-3'><div class='mr-5'><div class='card shadow border-left'></div></div></div>";
        }
       ?>
+
+    </div>
+    <div class="row">
+ <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php get_template_part( 'entry' ); ?>
+<?php endwhile; endif; ?>
     </div>
     <div class="row primary">
         <div class="footer">

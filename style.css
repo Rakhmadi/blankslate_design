@@ -105,7 +105,7 @@
     color: rgb(54, 54, 54);
 }
 .border-left{
-    border-left: 3px solid rgb(33, 142, 216);
+    border-left: 5px solid rgb(33, 142, 216);
 }
 .primary{
     background-color: rgb(0, 98, 255);
@@ -122,6 +122,36 @@
 .footer ul li{
    list-style: none;
     
+}
+article{
+    
+    float: none;
+    
+    margin: 10px;
+    border-left: 5px solid rgb(5, 63, 255) ;
+    background-color:rgb(255, 255, 255);
+    color: rgb(54, 54, 54);
+    box-shadow: 0 4px 8px 0 rgba(184, 184, 184, 0.438);
+    padding:30px;
+}
+.entry-title a{
+    text-decoration:none;
+    font-size: 47px;
+    color: rgb(10, 95, 253);
+    margin-button: 7px;
+}
+.entry-meta{
+    font-size: 12px;
+}
+.entry-meta a{
+   text-decoration: none;
+}
+article header{
+    margin: 10px;
+}
+article .entry-summary{
+    width: 85%;
+    margin-left: 11px;;
 }
 @media screen and (max-width:745px){
     .col-3{
