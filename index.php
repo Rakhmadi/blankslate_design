@@ -16,7 +16,7 @@
     <div class="row">
 
     <?php
-       for ($i=0; $i < 1000; $i++) { 
+       for ($i=0; $i < 100; $i++) { 
            echo"<div class='col-3'><div class='mr-5'><div class='card shadow border-left'></div></div></div>";
        }
       ?>

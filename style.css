@@ -106,8 +106,12 @@
 .border-left{
     border-left: 3px solid rgb(33, 142, 216);
 }
+.footer{
+    display: inline;
+    
+}
 @media screen and (max-width:745px){
-    .col-4{
+    .col-3{
         width: 100%;
         display: inline;
     }
