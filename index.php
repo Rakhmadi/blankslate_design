@@ -20,13 +20,23 @@
            echo"<div class='col-3'><div class='mr-5'><div class='card shadow border-left'></div></div></div>";
        }
       ?>
+      
     </div>
+    <div class="row primary">
+        <div class="footer">
+            <div class="col-3">sdasd</div>
+            <div class="col-3">sdasd</div>
+            <div class="col-3">sdasd</div>
+        </div>
+    </div>
+   
     <div class="mid-bt" onclick="show()">
        <p>></p>
     </div>
     <div id="t" onmouseleave="hide(this)" onclick="hide()" class="slide-k">
     <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
 </div>
+
     <script>
     function show(){
         document.getElementById('t').style.width="50%";
