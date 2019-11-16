@@ -20,13 +20,30 @@
            echo"<div class='col-3'><div class='mr-5'><div class='card shadow border-left'></div></div></div>";
        }
       ?>
-      
     </div>
     <div class="row primary">
         <div class="footer">
-            <div class="col-3">sdasd</div>
-            <div class="col-3">sdasd</div>
-            <div class="col-3">sdasd</div>
+            <div class="col-3">
+               <div class="c">
+               <ul>
+                    <li><a href="http://">chec</a></li>
+                </ul>
+               </div>
+            </div>
+            <div class="col-3">
+            <div class="c">
+               <ul>
+               <li><a href="http://">chec</a></li>
+                </ul>
+               </div>
+            </div>
+            <div class="col-3">
+            <div class="c">
+               <ul>
+               <li><a href="http://">chec</a></li>
+                </ul>
+               </div>
+            </div>
         </div>
     </div>
    
